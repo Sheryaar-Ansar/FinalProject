@@ -137,7 +137,7 @@ header .checkBtn{
 }
 
 footer{
-    position: sticky;
+    position: sticky ;
     width: 100%;
     height: auto;
     top: 100%;
