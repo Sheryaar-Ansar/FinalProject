@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    /* display: inline; */
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 400vh;
+
+
+}
+
+.container {
+
+    width: 1250px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    padding-top: 280px;
+
+
+}
+
+
+.one {
+    font-style: oblique;
+    font-family: cursive;
+    color: rgb(248, 126, 12);
+    font-size: clamp(1.5rem, -61.625rem + 200vw, 0.875rem);
+    padding-top: 30px;
+    margin-bottom: -22px;
+    position: relative;
+
+}
+
+.intro h1 {
+    position: relative;
+    color: rgb(19, 153, 153);
+    font-size: clamp(2.75rem, -61.625rem + 200vw, 0.875rem);
+    /* mix-blend-mode: overlay; */
+    font-style: italic;
+    height: 65px;
+    font-size: 70px;
+    z-index: -2;
+
+}
+
+.two {
+    font-size: 40px;
+    font-family: cursive;
+    font-style: oblique;
+    margin-top: -13px;
+    color: rgb(248, 141, 41);
+    font-size: clamp(1.5rem, -61.625rem + 200vw, 0.875rem);
+
+
+}
+
+.three {
+    font-style: oblique;
+    font-family: cursive;
+    color: rgb(248, 141, 41);
+    font-size: clamp(1.5rem, -61.625rem + 200vw, 0.875rem);
+}
+
+.intro p {
+    font-family: cursive;
+    position: relative;
+    font-size: 19px;
+    line-height: 1.3em;
+    padding-top: 30px;
+}
+
+ .emp1 img {
+    position: absolute;
+    margin: -380px -420px;
+    padding: 13px;
+
+}
+
+.emp2 img {
+    position: absolute;
+    margin: -390px 250px 0 300px;
+}
+
+.emp3 {
+    position: absolute;
+    margin: -130px 1120px 0;
+}
+
+.emp4 {
+    position: absolute;
+    margin: 60px 760px;
+
+}
+
+.emp5 {
+    position: absolute;
+    margin: 60px 340px;
+
+}
+
+.light {
+    position: absolute;
+    margin: -100px 0px 0px 60px;
+
+}
+
+.gua {
+    position: absolute;
+    margin: -270px 10px 40px -70px;
+
+}
+
+.mirchi {
+    position: absolute;
+    margin: 20px 980px;
+}
+
+.connect p {
+    font-family: cursive;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.3em;
+    padding-top: 30px;
+    padding-right: 550px;
+}
+
+.ten {
+    position: relative;
+    color: rgb(19, 153, 153);
+    font-size: clamp(2.75rem, -61.625rem + 200vw, 0.875rem);
+    font-style: italic;
+    height: 65px;
+    font-size: 70px;
+    z-index: -1;
+    padding-right: 600px;
+}
+
+.connect .one {
+    position: relative;
+    padding-right: 800px;
+    font-size: 30px;
+}
+
+.comm img {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: -300px 0px 100px 600px;
+    border-radius: 60px;
+
+}
+
+.com {
+    position: relative;
+    display: inl;
+    border: 2px solid rgb(231, 235, 10);
+    box-shadow: 0 0 20px rgb(231, 235, 10);
+    ;
+    background-color: rgb(247, 121, 37);
+    width: 400px;
+    height: 210px;
+    font-size: 18px;
+    border-radius: 60px;
+    padding-left: 15px;
+    /* padding-bottom: 90px; */
+    margin-left: 800px;
+    margin-top: -130px;
+
+
+
+}
+
+.com p {
+    display: inline;
+    font-size: 16px;
+    padding-right: 5px;
+
+
+
+}
+
+.com h1 {
+    font-weight: 800;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.com a {
+    height: 100px;
+    margin: -4px 180px 5px 30px;
+    padding: 10px 70px 10px 0px;
+    color: black;
+    /* display: inline; */
+}
+
+.belief {
+    position: relative;
+    width: 680px;
+    height: 1300px;
+    margin: -30px 300px 80px 80px;
+    padding: 300px;
+    border: 2px solid rgb(19, 153, 153);
+    border-radius: 100px;
+    background-color: rgb(23, 163, 163);
+    box-shadow: 0 0 15px rgb(88, 247, 247);
+    opacity: 1;
+}
+
+.belief h2 {
+    text-align: start;
+    margin: -250px -240px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.belief h1 {
+    font-size: 50px;
+    position: absolute;
+    color: rgb(0, 14, 14);
+    margin: 232px -250px -150px;
+
+}
+
+.belief p {
+    /* height: 110vh; */
+    display: flex;
+    font-size: 21px;
+    margin: 290px -200px 0px -270px;
+    padding-left: 10px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7em;
+    color: #fff;
+
+}
+
+.belief img {
+    margin: -180px -10px 0px 330px;
+    border-radius: 70px;
+}
+
+.img2 {
+    margin: 210px 0px 20px -120px;
+}
+
+.belief .box {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: -550px 150px -135px -245px;
+
+}
+
+.belief .one {
+    margin: 300px 150px -140px 9px;
+}
+
+.belief .one p {
+    color: #000;
+    margin-top: 240px;
+}
+
+.belief .box1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: 47px 150px -135px -243px;
+}
+
+.two h2 {
+    margin: 90px 150px -140px -240px;
+}
+
+.box1 p {
+    color: #000;
+    margin-top: 30px;
+    margin-right: -690px;
+
+}
+
+.belief .box2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: 95px 150px -135px -243px;
+}
+
+.three h2 {
+    width: 600px;
+
+    margin: 230px 150px -140px -230px;
+}
+
+.box2 p {
+    color: #000;
+    margin-top: 15px;
+    margin-right: -790px;
+    margin-top: 30px;
+
+}
+
+.belief .box3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: 90px 150px -135px -241px;
+}
+
+.four h2 {
+    width: 600px;
+    font-size: 38px;
+    margin: 230px 150px -140px -230px;
+}
+
+.box3 p {
+    color: #000;
+    margin-top: 35px;
+    margin-right: -790px;
+
+}
+
+.belief .box4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: 90px 150px -135px -241px;
+}
+
+.five h2 {
+    width: 600px;
+    font-size: 38px;
+    margin: 230px 150px -140px -230px;
+}
+
+.box4 p {
+    color: #000;
+    margin-top: 35px;
+    margin-right: -720px;
+
+}
+
+.belief .box5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid rgb(16, 131, 131);
+    background-color: rgb(5, 114, 114);
+    margin: 90px 150px -135px -241px;
+}
+
+.six h2 {
+    width: 600px;
+    font-size: 38px;
+    margin: 230px 150px -140px -230px;
+}
+
+.box5 p {
+    color: #000;
+    margin-top: 35px;
+    margin-right: -790px;
+
+}
+ 
+ @media only screen and (max-width:530px){
+    .intro{
+        height: 600px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .intro{
+        margin-left: 55px;
+    }
+    .light,.gua{
+        display: none;
+    }
+    .emp5{
+        margin-left: 20px;
+        margin-top: -20px;
+
+    }
+    .emp1{
+        margin-left: 160px;
+        margin-top: 55px;
+    }
+    .emp3{
+        margin-left: 290px;
+        margin-top: -470px;
+    }
+    .emp2{
+        margin-right: 160px;
+    }
+    .mirchi{
+        margin-left:  280px; ;
+        margin-top: -20px;
+    }
+
+    .emp4{
+        margin-left: 540px;
+        margin-top: -20px;
+    }
+
+
+    .h2,.p, .h1{
+        margin-left:200px;
+        width: 510px;
+    }
+
+    .connect{
+        height: auto;
+        width: 800px ;
+    }
+
+    .comm img{
+        margin-bottom: 300px;
+        margin-left: -30px;
+        margin-top: 100px;
+        height: 600px;
+        width: 800px;
+        border-radius: 80px;
+    }
+
+    .com{
+        margin-left: 250px;
+        margin-top: -420px ;
+        width: 500px ;
+        height: 500px;
+    }
+
+    .com h1{
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .com p{
+        font-family: sans-serif ;
+        font-style: normal;
+        font-size: 36px;
+        text-align: left;
+        
+    }
+    .com a{
+        font-size: 29px;
+    }
+    .connect h2 , .ten {
+        margin-left: 160px;
+
+    }
+    .connect p{
+        font-size: 22px;
+        width: 1300px;
+        margin-left: 30px;
+    }
+
+} 
