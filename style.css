@@ -739,6 +739,7 @@ body {
         position: absolute;
         margin-left: 400px;
         margin-top: -100px;
+        width: 100px;
     }
 
     .fifthBox .boxTwo {
@@ -797,6 +798,13 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .seventhPara h3 {
+        color: black;
+        font-size: 33px;
+        text-transform: uppercase;
+        position: relative;
+        transform: rotate(0);
     }
 
 }
@@ -904,7 +912,7 @@ body {
     /* SixthBox */
     .sixthArticle .sixthBox {
         display: block;
-        margin-left: 100px;
+        /* margin-left: 100px; */
 
     }
 
