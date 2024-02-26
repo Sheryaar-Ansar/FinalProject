@@ -79,3 +79,37 @@ body {
     font-size: 12px;
     font-weight: 500;
 }
+
+@media only screen and (max-width:1250px){
+    .orderThis{
+        display: block;
+    }
+    .orderThis .deliveryAddress{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .mapImg iframe {
+        width: 340px;
+        height: 280px;
+        border-radius: 50px;
+        border: none;
+    }
+}
+@media only screen and (max-width:450px){
+    .mapImg iframe {
+        width: 240px;
+        height: 280px;
+        border-radius: 50px;
+        border: none;
+    }
+    .orderThis .mapImg {
+        margin-left: 50px;
+    
+    }
+    .orderThis .deliveryAddress{
+        margin-left: 50px;
+    }
+}

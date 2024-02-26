@@ -1,0 +1,440 @@
+body {
+    min-height: 100vh;
+}
+
+.firstArticle {
+    margin-bottom: 50px;
+
+}
+
+.firstArticle .floatRight {
+    float: right;
+    border-left: 1px dashed rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
+    position: relative;
+}
+
+.floatRight h1 {
+    font-size: 35px;
+    color: #f58025;
+    text-transform: uppercase;
+}
+
+.floatRight .firstArtNumber ul {
+    list-style: none;
+    /* background: red; */
+}
+
+.firstArtNumber ul li {
+    position: relative;
+    counter-increment: item;
+    /* line-height: 40px; */
+    padding-left: 4em;
+
+}
+
+.firstArtNumber ul li:before {
+    content: counter(item);
+    display: block;
+    font-family: "eds-market-regular-slant", sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F1BB02;
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.firstArticle .firstMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+    padding-bottom: 40px;
+    margin-left: 50px;
+
+
+}
+
+.firstMenu h1 {
+    font-size: 45px;
+    color: #29B0A7;
+    text-transform: uppercase;
+}
+
+.firstMenu .menuPl ul {
+    margin-bottom: 10px;
+}
+
+.firstMenu .menuPl a {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.firstArticle .firstFoodItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.firstFoodItem .foodRecipe h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.firstFoodItem .foodRecipe h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.firstFoodItem .foodRecipe p {
+    margin-bottom: 15px;
+}
+
+.firstFoodItem .foodRecipe a {
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.firstFoodItem .recipeImg {
+    margin-top: 50px;
+}
+
+.firstFoodItem .recipeImg img {
+    width: 381px;
+    height: 290px;
+}
+
+/* secondArticle */
+.secondArticle {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.secondArticle .secondName {
+    color: #f58025;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.secondArticle .secondProducts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondProducts .secondWrap {
+    border: 1px dashed rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 350px;
+    height: 400px;
+}
+
+.secondProducts .secondWrap img {
+    width: 331px;
+    height: 240px;
+}
+
+.secondProducts .secondWrap .thirdDrinks {
+    width: 270px;
+    height: 250px;
+}
+
+.secondProducts .secondWrap h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.line-spacing {
+    position: relative;
+}
+
+.line-spacing .line-between {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #f58025;
+    color: #f58025;
+}
+
+/* Fourth Article */
+.FourthArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.FourthArticle .fourthWrap {
+    width: 80%;
+    background: #29B0A7;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+
+}
+
+.FourthArticle .wrapOne {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.wrapOne h3 {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: aliceblue;
+    transform: rotate(-2deg);
+    margin-top: -0.5em;
+    position: absolute;
+}
+
+.wrapOne h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.wrapOne .btnDiv {
+    margin-top: 50px;
+}
+
+.btnDiv button {
+    padding: 10px;
+    background: black;
+    color: aliceblue;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.btnDiv a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.FourthArticle .wrapTwo {
+    width: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapTwo .absBox {
+    width: 547px;
+    height: 798px;
+    position: absolute;
+    top: 0;
+    margin-top: -25em;
+    margin-left: -10em;
+}
+
+/* Seventh Article */
+.seventhArticle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: white;
+    margin-top: 100px;
+}
+
+.seventhArticle .seventhBox {
+    display: flex;
+    width: 80%;
+    background: #f58025;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 80px;
+
+}
+
+.seventhBox .seventhPara {
+    width: 50%;
+    position: relative;
+}
+
+.seventhPara h3 {
+    color: black;
+    font-size: 33px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: -0.9em;
+    margin-top: -0.7em;
+    transform: rotate(-2deg);
+    mix-blend-mode: multiply;
+}
+
+.seventhPara h1 {
+    color: aliceblue;
+    font: 45px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.seventhPara p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.seventhBox .seventhInput {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: red; */
+    height: auto;
+}
+
+.seventhInput input {
+    width: 250px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.seventhInput input::placeholder {
+    font-weight: 600;
+}
+
+.seventhInput .arrowIcon {
+    color: black;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-bottom: -16px;
+
+}
+
+@media only screen and (max-width:1123px) {
+    .firstArticle .floatRight {
+        float: none;
+    }
+
+    .firstArticle .firstMenu {
+        display: block;
+        margin-top: 50px;
+    }
+        /* SeventhArticle */
+        .seventhArticle{
+            width: 100%;
+        }
+        .seventhArticle .seventhBox {
+            display: block;
+            width: 100%;
+        
+        }
+        .seventhBox .seventhInput{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .seventhBox .seventhPara{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .seventhPara h3 {
+            color: black;
+            font-size: 33px;
+            text-transform: uppercase;
+            position: relative;
+            transform: rotate(0);
+        }
+}
+
+@media only screen and (max-width:960px) {
+    /* FourthArticle */
+    .FourthArticle .fourthWrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapTwo .absBox {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .firstArticle .firstFoodItem {
+        display: block;
+        margin-top: 50px;
+    }
+
+    /* Second Article */
+    .secondArticle {
+        display: block;
+        justify-content: center;
+    }
+    /* FourthArticle */
+    .FourthArticle .wrapOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapOne h3 {
+        font-size: 23px;
+        position: relative;
+    }
+    .wrapOne h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .firstFoodItem .recipeImg img {
+        width: 231px;
+        height: 160px;
+    }
+
+    /* SecondArtwicle */
+    .secondProducts .secondWrap {
+        width: 250px;
+        height: 300px;
+    }
+
+    .secondProducts .secondWrap img {
+        width: 231px;
+        height: 140px;
+    }
+
+    .secondProducts .secondWrap .thirdDrinks {
+        width: 170px;
+        height: 150px;
+    }
+    /* FourthArticle */
+    .wrapOne .btnDiv {
+        display: block;
+    }
+}
