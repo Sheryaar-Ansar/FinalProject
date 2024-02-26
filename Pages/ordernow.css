@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.orderThis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.orderThis .mapImg {
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+.mapImg iframe {
+    width: 540px;
+    height: 480px;
+    border-radius: 50px;
+    border: none;
+}
+
+.orderThis .deliveryAddress {
+    width: 50%;
+
+}
+
+.deliveryAddress h1 {
+    font-size: 45px;
+    color: #29B0A7;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.deliveryAddress h3 {
+    font-size: 33px;
+    color: #f58025;
+    text-transform: uppercase;
+}
+
+.deliveryAddress form {
+    display: flex;
+    flex-direction: column;
+}
+
+.deliveryAddress form label {
+    font-weight: 500;
+}
+
+.deliveryAddress form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px;
+
+}
+.deliveryAddress form input::placeholder{
+    font-weight: 500;
+}
+
+.deliveryAddress form .submitBtn{
+    margin-top: 50px;
+    background: linear-gradient(40deg, #29B0A7, #f58025);
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
