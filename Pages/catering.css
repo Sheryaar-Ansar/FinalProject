@@ -164,6 +164,7 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     margin-top: 150px;
+    min-height: 70vh;
 
 
 
@@ -188,6 +189,16 @@ body {
     background-color: #29B0A7;
     color: #000;
 
+}
+
+.boss{
+    background-color: #f58025;
+}
+.step{
+    background-color: #F1BB02;
+}
+.son {
+    text-align: left;
 }
 
 .son span {
@@ -251,6 +262,7 @@ h1 {
 
 .one .para,
 .text {
+    
     margin-top: -70px;
     margin-left: 450px;
 
