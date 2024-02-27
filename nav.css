@@ -63,6 +63,10 @@ header .orderButton::after{
     border-radius: 20px;
     border: 6px solid rgb(183, 233, 233);
 }
+header .orderButton a{
+    text-decoration: none;
+    color: aliceblue;
+}
 header .orderNow{
     position: relative;
     /* padding: 10px; */
