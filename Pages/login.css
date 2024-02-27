@@ -1,0 +1,228 @@
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    padding: 20px;
+    position: relative;
+    
+
+
+}
+.wrapper{
+    position: relative;
+    width: 600px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.loginInput{
+    width: 600px;
+    height: 550px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    border: 2px solid white;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 0 30px #f58025;
+    /* display: none; */
+}
+.nameInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.nameInput span{
+    width: 30%;
+    height: 5px;
+    background: #f58025;
+    margin-left: 5px;
+
+}
+.nameInput h1{
+    text-transform: uppercase;
+    color: #f58025;
+    font-size: 40px;
+}
+.loginSignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.loginSignup p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginSignup a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+
+
+}
+.loginSignup a:hover{
+    text-decoration: underline;
+}
+.loginInput .emailPw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.emailPw .divOne{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.divOne label{
+    font-size: 12px;
+}
+.divOne input{
+    width: 400px;
+    border: 2px solid #f58025;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.divTwo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.divTwo input{
+    /* background: black; */
+    padding: 10px;
+    border-radius: 15px;
+    color: #29B0A7;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+.divTwo input:hover{
+    background: rgba(0, 0, 0, 0.9);
+}
+.loginInput .divThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.divThree a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Register */
+.signupInput{
+    width: 600px;
+    height: 870px;
+    border: 2px solid white;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 0 30px #f58025;
+    position: absolute;
+    /* left: 700px; */
+}
+.signupInput .usernamePw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.usernamePw .contOne{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.contOne label{
+    font-size: 12px;
+}
+.contOne input{
+    width: 400px;
+    border: 2px solid #f58025;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.usernamePw .contTwo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.contTwo label{
+    font-size: 12px;
+}
+.contTwo input{
+    width: 400px;
+    border: 2px solid #f58025;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+/* Js */
+.wrapper .signupInput{
+    transform: translateX(700px);
+    transition: none;
+}
+.wrapper.active .signupInput{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper .loginInput{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active .loginInput{
+    transition: none;
+    transform: translateX(-700px);
+}
+.wrapper.active{
+    height: 870px;
+    transition: height 0.2s ease;
+}
+
+@media only screen and (max-width:524px){
+    .wrapper{
+        width: 350px;
+    }
+    .divOne input{
+        width: 200px;
+        
+    }
+    .contOne input{
+        width: 200px; 
+    }
+    .contTwo input{
+        width: 200px;
+    }
+}
