@@ -5,7 +5,7 @@ This Mentioned Website is made by 2 of the below members: <br>
 Group Name : <i>COdify Group</i>
 <ul>
 <li>1- Sheheryaar Khan (Team Lead)</li>
-<li>3- Afnan (Team Member)</li>
+<li>2- Afnan (Team Member)</li>
 </ul>
 
 
