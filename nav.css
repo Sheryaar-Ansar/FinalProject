@@ -192,7 +192,8 @@ footer .firstColumn> .footerIcons .x{
     transition: .5s ease;
 }
 footer .firstColumn> .footerIcons .x:hover{
-    background: linear-gradient(30deg, blue, aquamarine, darkblue);
+    /* background: linear-gradient(30deg, blue, aquamarine, darkblue); */
+    background-color: black;
 
 }
 footer .firstColumn> .footerIcons .x a{
@@ -211,7 +212,7 @@ footer .firstColumn> .footerIcons :nth-child(2) a{
     transition: .5s ease;
 }
 footer .firstColumn> .footerIcons :nth-child(2) a:hover{
-    background: linear-gradient(30deg, red, purple, orange);
+    background: linear-gradient(45deg, rgb(250, 250, 119), rgb(241, 188, 88), red,rgb(241, 70, 164) , rgb(146, 12, 146));
 }
 footer .firstColumn> .footerIcons :nth-child(3) a{
     height: 50px;
@@ -226,7 +227,7 @@ footer .firstColumn> .footerIcons :nth-child(3) a{
     transition: .5s ease;
 }
 footer .firstColumn> .footerIcons :nth-child(3) a:hover{
-    background: linear-gradient(30deg, darkcyan, cyan, blue);
+    background-color: rgb(14, 100, 199);
 }
 footer .firstColumn> .footerIcons :nth-child(4) a{
     height: 50px;
@@ -241,7 +242,9 @@ footer .firstColumn> .footerIcons :nth-child(4) a{
     transition: .5s ease;
 }
 footer .firstColumn> .footerIcons :nth-child(4) a:hover{
-    background: linear-gradient(30deg, aliceblue, blue);
+    /* background: linear-gradient(30deg, aliceblue, blue); */
+    background-color: white;
+    color: black;
 }
 .footerLinks{
     margin-top: 20px;
