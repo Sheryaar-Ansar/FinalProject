@@ -219,9 +219,13 @@ body {
 .wrapOne .btnDiv {
     margin-top: 50px;
 }
+.btnDiv a:first-child{
+    text-decoration: none;
+    cursor: pointer;
 
+}
 .btnDiv button {
-    padding: 10px;
+    padding: 12px;
     background: black;
     color: aliceblue;
     font-weight: 600;
